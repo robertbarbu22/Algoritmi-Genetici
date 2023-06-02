@@ -178,9 +178,6 @@ for p in range(nr_etape):
     cromozomi_selectati = []
     for i in range(dimensiune):
         random_number = random.random()
-        # Evidențierea procesului de selecție, care constă în generarea unui număr aleator u uniform pe[0, 1) și determinarea intervalului [qi , qi + 1) căruia aparține acest număr; corespunzător acestui interval se selectează cromozomul i+1.
-        # Procesul se repeta pana cand se selecteaza numarul dorit de cromozomi.
-        # Cerință: cautarea intervalului corespunzator se va face folosind cautare binara
         st = 0
         dr = dimensiune
         sol = 0
